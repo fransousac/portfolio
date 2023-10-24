@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portfólio Pessoal</title>
+</head>
+<body>
+    <header>
+        <h1>Franciele da Cruz Sousa</h1>
+    </header>
+    <nav>
+        <a href="#" id="sobre-link">Sobre Mim</a>
+        <a href="#" id="formacao-link">Formação</a>
+        <a href="#" id="portfolio-link">Portfólio</a>
+        <a href="#" id="contato-link">Contato</a>
+    </nav>
+    <section id="sobre">
+       <div class="image-container" >
+        <img src="foto.jpg" alt="">
+       </div> 
+       
+        <h2>Sobre Mim</h2>
+        <p>Apaixonada por música e entusiasta da aprendizagem constante. Gosto de desafiar a minha mente seja através de cursos, <br> livros ou experiências do dia a dia. Quando não estou envolvida com música ou estudando, aproveito o tempo com minha família. <br>Decidi mudar meu caminho e deixei de lado a ideia de estudar medicina para seguir uma carreira na área de tecnologia. <br> Estou animada para compartilhar meu trabalho e minhas paixões com você por aqui. <br> Seja bem-vindo!</p>
+    </section>
+    <section id="formacao">
+        <h2>Formação Educacional</h2>
+        <p>Cursando Análise e Desenvolvimento de Sistemas. <br>
+            <br>Habilidades:<br>
+            
+            HTML
+            CSS
+            JavaScript 
+            Python
+            <br>
+            <br>Cursos que ja concluí:
+            
+            <br>Lógica de Programação <br>
+            Formação de Testes Ágeis <br>
+            Java <br>
+            
+            <br>Idiomas:
+            
+           <br> Inglês(Intermediário)</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Aplicativo para controle de tarefas: <a href="https://www.figma.com/proto/rRZ9ixw14hHnARMAGpPgiV/Tarefácil?type=design&node-id=1-2&t=gwJQV7iogaYlxRPN-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1" target="_blank">Tarefácil no Figma</a></p><br>
+        <img src="Tarefas.png" alt="Apptarefas">
+
+        <p>Aplicativo de viagens: <a href="https://www.figma.com/proto/gl4SRHqqWQ2eJ2DIVnk42u/T%C3%B4-de-viagem?type=design&node-id=26-29&t=RwJ4zTBGVeeRdsaw-0&scaling=scale-down&page-id=16%3A2&starting-point-node-id=18%3A13"target="_blank">Todeviagem no Figma</a></p>
+        <img src="todeviagem.png" alt="appviagem">
+        <section id="contato">
+
+        <h2>Contato</h2>
+        <p>Estou sempre disponível para entrar em contato e ficarei feliz em ouvir de você. <br> 
+           Por favor, sinta-se à vontade para me enviar uma mensagem com suas perguntas, comentários <br> ou  qualquer coisa que você gostaria de discutir.
+           Você pode entrar em contato comigo das seguintes maneiras:</p>
+
+        <form id="formulario-contato" action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required> <br>
+    
+           <br> <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" name="email" required><br>
+    
+            <br><label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+    
+           <br><br> <input type="submit" value="Enviar"> 
+        </form>  
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
